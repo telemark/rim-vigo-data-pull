@@ -1,0 +1,51 @@
+{
+  "name": "rim-vigo-data-pull",
+  "description": "Henter data fra VIGO",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.3"
+  },
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "test-offline": "standard && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/**/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install",
+    "standard-fix": "standard --fix",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tfk",
+    "Telemark fylkeskommune",
+    "Saksbehandling",
+    "RIM",
+    "VIGO",
+    "Elevmappa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/rim-vigo-data-pull.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/rim-vigo-data-pull/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "nsp": "2.6.2",
+    "standard": "8.6.0",
+    "tap": "9.0.1"
+  },
+  "dependencies": {
+    "is-directory": "0.3.1",
+    "rim-service-client": "1.0.0",
+    "tfk-generate-unique-filename": "1.0.1"
+  }
+}
