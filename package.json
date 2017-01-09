@@ -36,6 +36,9 @@
   "bugs": {
     "url": "http://github.com/telemark/rim-vigo-data-pull/issues"
   },
+  "greenkeeper": {
+    "emails": false
+  },
   "license": "MIT",
   "devDependencies": {
     "coveralls": "2.11.15",
