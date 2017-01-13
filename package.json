@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-data-pull",
   "description": "Henter data fra VIGO",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "author": {
     "name": "Geir Gåsodden",
@@ -10,7 +10,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.3"
+    "node": ">=6.9.4"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
