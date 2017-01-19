@@ -2,6 +2,7 @@
   "name": "rim-vigo-data-pull",
   "description": "Pulls data from VIGO",
   "version": "1.0.2",
+  "license": "MIT",
   "private": true,
   "author": {
     "name": "Geir Gåsodden",
@@ -39,7 +40,6 @@
   "greenkeeper": {
     "emails": false
   },
-  "license": "MIT",
   "devDependencies": {
     "coveralls": "2.11.15",
     "nsp": "2.6.2",
