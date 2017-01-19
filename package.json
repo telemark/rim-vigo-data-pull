@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-data-pull",
-  "description": "Henter data fra VIGO",
-  "version": "1.0.1",
+  "description": "Pulls data from VIGO",
+  "version": "1.0.2",
   "private": true,
   "author": {
     "name": "Geir Gåsodden",
