@@ -47,7 +47,6 @@
     "tap": "9.0.3"
   },
   "dependencies": {
-    "is-directory": "0.3.1",
     "rim-service-client": "1.0.1",
     "tfk-generate-unique-filename": "1.0.2"
   }
