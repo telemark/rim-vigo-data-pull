@@ -43,7 +43,12 @@ $ docker run --env-file=docker.env --volume=/test/data/jobs:/src/test/data/jobs 
 - Generate .json file in the queue directory.
 - Stop the container and remove it.
 
-# License
+## Related
+- [rim-vigo-saksbehandling](https://github.com/telemark/rim-vigo-saksbehandling) Formats documents for archive
+- [rim-laurentius](https://github.com/telemark/rim-laurentius) Archives the formatted data to Public360
+- [rim-vigo-update-status](https://github.com/telemark/rim-vigo-update-status) Updates archive status for document
+
+## License
 [MIT](LICENSE)
 
 ![alt text](https://robots.kebabstudios.party/rim-vigo-data-pull.png "Robohash image of rim-vigo-data-pull")
