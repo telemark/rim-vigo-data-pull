@@ -8,9 +8,9 @@ Pulls data from VIGO and saves it as .json.
 docker.env
 
 ```bash
-QUEUE_DIRECTORY_PATH=test/data/queue
 COPIES_DIRECTORY_PATH=test/data/copies
-ERRORS_DIRECTORY_PATH=test/data/error
+ERRORS_DIRECTORY_PATH=test/data/errors
+QUEUE_DIRECTORY_PATH=test/data/queue
 URL=https://vigo.dummy.allthethings.win
 USERNAME=my-username
 PASSWORD=my-password
