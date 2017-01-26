@@ -3,6 +3,8 @@
 const client = require('rim-service-client')
 const parseData = require('./lib/parse-data')
 const saveDocuments = require('./lib/save-documents')
+const updateStats = require('./lib/update-stats')
+const logger = require('./lib/logger')
 const config = require('./config')
 
 const argOpts = {
@@ -22,10 +24,11 @@ const clientOpts = {
 client(clientOpts)
   .then(parseData)
   .then(saveDocuments)
+  .then(updateStats)
   .then((message) => {
-    console.log(message)
+    logger(['finished'])
     process.exit(0)
   }).catch((error) => {
-    console.error(JSON.stringify(error))
+    logger(['error', JSON.stringify(error)])
     process.exit(1)
   })

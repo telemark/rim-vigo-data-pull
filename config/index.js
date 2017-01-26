@@ -10,5 +10,8 @@ module.exports = {
   USERNAME: envs.USERNAME || 'my-username',
   PASSWORD: envs.PASSWORD || 'my-password',
   ANTALL_DOKUMENTER: envs.ANTALL_DOKUMENTER || 1,
-  FYLKE: envs.FYLKE || 8
+  FYLKE: envs.FYLKE || 8,
+  fireBase: {
+    databaseURL: envs.FIREBASE_URL || 'https://seneca-firebase-test.firebaseio.com'
+  }
 }

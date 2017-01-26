@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/rim-vigo-data-pull.svg?branch=master)](https://travis-ci.org/telemark/rim-vigo-data-pull)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # rim-vigo-data-pull
+
 Pulls data from VIGO and saves it as .json.
 
 ## Config
@@ -16,6 +18,7 @@ USERNAME=my-username
 PASSWORD=my-password
 ANTALL_DOKUMENTER=1
 FYLKE=8
+FIREBASE_URL=https://your.firebase.url
 ```
 
 ## Docker
