@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-data-pull",
   "description": "Pulls data from VIGO",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.4"
+    "node": ">=6.9.5"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -36,9 +36,6 @@
   },
   "bugs": {
     "url": "http://github.com/telemark/rim-vigo-data-pull/issues"
-  },
-  "greenkeeper": {
-    "emails": false
   },
   "devDependencies": {
     "coveralls": "2.11.15",
