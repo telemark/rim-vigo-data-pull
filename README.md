@@ -3,6 +3,8 @@
 
 # rim-vigo-data-pull
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-data-pull.svg)](https://greenkeeper.io/)
+
 Pulls data from VIGO and saves it as .json.
 
 ## Config
