@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "firebase-save": "2.1.0",
-    "rim-service-client": "1.0.1",
+    "rim-service-client": "1.0.5",
     "tfk-generate-unique-filename": "1.0.6"
   }
 }
