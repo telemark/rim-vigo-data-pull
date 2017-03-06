@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-data-pull",
   "description": "Pulls data from VIGO",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "license": "MIT",
   "private": true,
   "author": {
