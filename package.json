@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-data-pull",
   "description": "Pulls data from VIGO",
-  "version": "2.1.10",
+  "version": "2.1.11",
   "license": "MIT",
   "private": true,
   "author": {
@@ -39,9 +39,9 @@
   },
   "devDependencies": {
     "coveralls": "2.13.0",
-    "tap": "10.3.2"
+    "tap": "10.3.2",
     "nsp": "2.6.3",
-    "standard": "10.0.1",
+    "standard": "10.0.1"
   },
   "dependencies": {
     "firebase-save": "2.1.0",
