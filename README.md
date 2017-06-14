@@ -1,9 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/rim-vigo-data-pull.svg?branch=master)](https://travis-ci.org/telemark/rim-vigo-data-pull)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-data-pull.svg)](https://greenkeeper.io/)
 
 # rim-vigo-data-pull
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-data-pull.svg)](https://greenkeeper.io/)
 
 Pulls data from VIGO and saves it as .json.
 
