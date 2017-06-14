@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-data-pull",
   "description": "Pulls data from VIGO",
-  "version": "2.1.14",
+  "version": "2.2.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.5"
+    "node": ">=6.11.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -32,11 +32,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/rim-vigo-data-pull.git"
+    "url": "https://github.com/telemark/rim-vigo-data-pull.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/rim-vigo-data-pull/issues"
+    "url": "https://github.com/telemark/rim-vigo-data-pull/issues"
   },
+  "homepage": "https://github.com/telemark/rim-vigo-data-pull",
   "devDependencies": {
     "coveralls": "2.13.1",
     "tap": "10.3.3",
@@ -46,6 +47,8 @@
   "dependencies": {
     "firebase-save": "2.1.0",
     "rim-service-client": "1.0.5",
-    "tfk-generate-unique-filename": "1.0.8"
+    "tfk-generate-unique-filename": "1.0.8",
+    "winston": "^2.3.1",
+    "winston-papertrail": "^1.0.5"
   }
 }

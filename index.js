@@ -26,9 +26,9 @@ client(clientOpts)
   .then(saveDocuments)
   .then(updateStats)
   .then((message) => {
-    logger(['finished'])
+    logger('info', ['index', 'finished'])
     process.exit(0)
   }).catch((error) => {
-    logger(['error', JSON.stringify(error)])
+    logger('error', ['index', JSON.stringify(error)])
     process.exit(1)
   })
