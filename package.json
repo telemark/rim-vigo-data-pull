@@ -1,7 +1,7 @@
 {
   "name": "rim-vigo-data-pull",
   "description": "Pulls data from VIGO",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "license": "MIT",
   "private": true,
   "author": {
@@ -40,7 +40,7 @@
   "homepage": "https://github.com/telemark/rim-vigo-data-pull",
   "devDependencies": {
     "coveralls": "2.13.1",
-    "tap": "10.7.0",
+    "tap": "10.5.2",
     "nsp": "2.6.3",
     "standard": "10.0.2"
   },
