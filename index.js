@@ -1,9 +1,6 @@
-'use strict'
-
 const client = require('rim-service-client')
 const parseData = require('./lib/parse-data')
 const saveDocuments = require('./lib/save-documents')
-const updateStats = require('./lib/update-stats')
 const logger = require('./lib/logger')
 const config = require('./config')
 
@@ -24,7 +21,6 @@ const clientOpts = {
 client(clientOpts)
   .then(parseData)
   .then(saveDocuments)
-  .then(updateStats)
   .then((message) => {
     logger('info', ['index', 'finished'])
     process.exit(0)

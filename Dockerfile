@@ -1,14 +1,5 @@
-###########################################################
-#
-# Dockerfile for rim-vigo-data-pull
-#
-###########################################################
-
-# Setting the base to nodejs 6.11.0
-FROM node:6.11.0-alpine
-
-# Maintainer
-MAINTAINER Geir Gåsodden
+# Setting the base to nodejs 8.9.1
+FROM node:8.9.1-alpine
 
 #### Begin setup ####
 
