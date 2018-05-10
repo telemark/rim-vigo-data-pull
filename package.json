@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/telemark/rim-vigo-data-pull#readme",
   "devDependencies": {
-    "coveralls": "3.0.0",
+    "coveralls": "3.0.1",
     "nsp": "3.2.1",
     "tap": "11.1.5",
     "standard": "11.0.1"
