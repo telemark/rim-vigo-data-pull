@@ -45,7 +45,7 @@
     "standard": "12.0.0"
   },
   "dependencies": {
-    "rim-service-client": "2.0.0",
+    "rim-service-client": "2.0.1",
     "tfk-generate-unique-filename": "2.0.0",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5"
