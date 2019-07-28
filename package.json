@@ -41,7 +41,7 @@
   "devDependencies": {
     "coveralls": "3.0.5",
     "tap": "14.4.3",
-    "standard": "12.0.1"
+    "standard": "13.1.0"
   },
   "dependencies": {
     "rim-service-client": "2.0.1",
