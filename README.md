@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/telemark/rim-vigo-data-pull.svg?branch=master)](https://travis-ci.org/telemark/rim-vigo-data-pull)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-vigo-data-pull.svg)](https://greenkeeper.io/)
 
 # rim-vigo-data-pull
 
@@ -48,11 +47,11 @@ $ docker run --env-file=docker.env --volume=/test/data/jobs:/src/test/data/jobs 
 - Stop the container and remove it.
 
 ## Related
+
 - [rim-vigo-saksbehandling](https://github.com/telemark/rim-vigo-saksbehandling) Formats documents for archive
 - [rim-laurentius](https://github.com/telemark/rim-laurentius) Archives the formatted data to Public360
 - [rim-vigo-update-status](https://github.com/telemark/rim-vigo-update-status) Updates archive status for document
 
 ## License
-[MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/rim-vigo-data-pull.png "Robohash image of rim-vigo-data-pull")
+[MIT](LICENSE)
