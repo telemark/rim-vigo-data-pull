@@ -40,7 +40,7 @@
   "homepage": "https://github.com/telemark/rim-vigo-data-pull#readme",
   "devDependencies": {
     "coveralls": "3.0.6",
-    "tap": "14.6.1",
+    "tap": "14.10.8",
     "standard": "13.1.0"
   },
   "dependencies": {
